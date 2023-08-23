@@ -1,0 +1,48 @@
+@media (max-width: 400px) {
+    .video video {
+        width: 100%;
+        height: auto;
+    }
+    .video {
+        height: auto;
+    }
+    header {
+        width: 100%;
+    }
+    .ikona-mobile {
+        display: flex;
+    }
+    .ikona-desktop {
+        display: none;
+    }
+    .banner-text-center {
+        display: none;
+    }
+    .container {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr; 
+    }
+    .post {
+        min-width: 100px;
+        flex-direction: column;
+    }
+
+    .img-wrapper img {
+        display: none;
+    }
+
+    .link {
+        display: none;
+    }
+    footer {
+        width: 100%;
+    }
+    .fern-desktop {
+          display: none;
+      }
+    .fern-mobile {
+          display: block;
+          width: 100%;
+    }
+    
+}

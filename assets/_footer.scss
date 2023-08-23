@@ -1,0 +1,55 @@
+footer { 
+      background-color: #0e0d0f;
+      height: 100px;
+      width: 100%;
+      display: flex;
+}
+.footer-position {
+    
+    position: relative;
+    width: 100%;
+    height: 100px;
+    
+}
+
+.icons-container {
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  width: 100px;
+  .icon {
+    height: 100px;
+    g {
+      fill: #fecb00;
+    }
+
+    &:hover {
+      g {
+        fill: #97089e;
+      }
+    }
+  }
+}
+
+.footer-container {
+  flex-direction: row;
+  display: flex;
+  position: absolute;
+  width: 100%;
+  justify-content: space-between;
+
+}
+.fern {
+  top: 0;
+  left: 0;
+  position: absolute;
+  transform: translateY(-100%);
+  z-index: 5;
+  width: 100%;
+}
+
+.tropico-conteiner {
+  display: flex;
+}
+.fern-mobile {
+  display: none;}

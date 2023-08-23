@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'Myriad Pro';
+    src: url(../fonts/MyriadPro/MyriadPro-Semibold.woff2) format('woff2'),
+        url('MyriadPro-Semibold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+p {
+    font-family: 'Myriad Pro';
+}
+@font-face {
+    font-family: 'BackOutWeb';
+    src: url(..fonts/BackOut/BackOutWeb) format('woff2'),
+        url('BackOutWeb.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+h1, header, .container {
+    font-family: 'BackOutWeb';
+}
